@@ -1,1 +1,1 @@
-# apex_legends_twitter_bot
+# Apex Legends Twitter Bot
