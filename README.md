@@ -7,12 +7,17 @@ The goal of this project was to give Apex players worldwide a feed that would di
 
 The solution was built using Python, Docker, and AWS. The solution was created with the following steps - 
 
-* Get Data From the Apex Legends Status Crafting Rotation API and Format as a Data Frame
-* Convert Data Frame to an Image File and Send an AWS S3 Bucket
-* Read in Image File From S3 and Tweet Out the Information Using the Tweepy Package 
-* Python Script That Does Steps 1-3 is Packaged Using Docker and Image is Uploaded to AWS ECR (Elastic Container Registry) 
-* Python Script Stored in AWS ECR is Run Using AWS Lamba 
-* AWS Lamba Function is Scheduled to Run Daily By Using AWS EventBirdge (Formerly AWS CloudWatch) 
+* Get Data From the Apex Legends Status Crafting Rotation API
+* Clean and Format Returned JSON as a Pandas Data Frame
+* Convert Data Frame to an Image File
+* Send Image File to an AWS S3 Bucket
+* Read Image File Back into Script in Memory From S3
+* Tweet Out the Information Using Tweepy Package 
+
+###Infrastructure
+* Python Script That Does All Steps Above is Packaged Using Docker. Container is Uploaded to AWS ECR (Elastic Container Registry) 
+* Container in AWS ECR is Run Using an AWS Lambda Function 
+* AWS Lambda Function is Scheduled to Run Daily By Using AWS EventBirdge (Formerly AWS CloudWatch) 
 
 Credentials for AWS, Apex Legends API, and Twitter are all stored in AWS Secrets Manager and are passed to the Python script using Boto3. Permissions on the AWS side are configured using AWS Identity and Access Management (IAM). 
 
