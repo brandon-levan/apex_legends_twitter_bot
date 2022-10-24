@@ -1,7 +1,7 @@
 # Apex Legends Twitter Bot
 
 ## Summary
-
+The goal of this project was to give Apex Players worldwide a feed that would display information about what loot is available in the Replicator for the current day. The solution I created is a Twitter account that posts a picture of table containing all of the items that can be found in the Replicator on the current day including attributes such as item name, rarity, cost, when the item enters and leaves the Replicator, and whether the loot item is in the Replicator for the day, week, or for the entire season. 
 
 ## Solution 
 
