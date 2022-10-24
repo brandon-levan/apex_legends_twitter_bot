@@ -14,7 +14,7 @@ The solution was built using Python, Docker, and AWS. The solution was created w
 * Read Image File Back into Script in Memory From S3
 * Tweet Out the Information Using Tweepy Package 
 
-###Infrastructure
+### Infrastructure
 * Python Script That Does All Steps Above is Packaged Using Docker. Container is Uploaded to AWS ECR (Elastic Container Registry) 
 * Container in AWS ECR is Run Using an AWS Lambda Function 
 * AWS Lambda Function is Scheduled to Run Daily By Using AWS EventBirdge (Formerly AWS CloudWatch) 
