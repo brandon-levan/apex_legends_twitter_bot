@@ -23,7 +23,7 @@ Credentials for AWS, Apex Legends API, and Twitter are all stored in AWS Secrets
 
 A full explaination of technicalities of this project can be explained here [here](https://www.brandonlevan.me/blog/apex-legends-twitter-bot)
 
-##Check Out My Blog Post on How I Built This Twitter Bot & My Twitter Bot
+## Check Out My Blog Post on How I Built This Twitter Bot & My Twitter Bot
 * [Building a Twitter Bot Using Python, Docker & Amazon Web Services - Blog Post](https://www.brandonlevan.me/blog/apex-legends-twitter-bot)
 * [Twitter Bot - @whats_crafting](https://twitter.com/whats_crafting)
 
