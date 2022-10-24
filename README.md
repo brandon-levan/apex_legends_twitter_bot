@@ -21,7 +21,7 @@ The solution was built using Python, Docker, and AWS. The solution was created w
 
 Credentials for AWS, Apex Legends API, and Twitter are all stored in AWS Secrets Manager and are passed to the Python script using Boto3. Permissions on the AWS side are configured using AWS Identity and Access Management (IAM). 
 
-A full explaination of technicalities of this project can be explained here [here](https://www.brandonlevan.me/blog/apex-legends-twitter-bot)
+A full explaination of technicalities of this project can be explained [here](https://www.brandonlevan.me/blog/apex-legends-twitter-bot)
 
 ## Check Out My Blog Post on How I Built This Twitter Bot & My Twitter Bot
 * [Building a Twitter Bot Using Python, Docker & Amazon Web Services - Blog Post](https://www.brandonlevan.me/blog/apex-legends-twitter-bot)
